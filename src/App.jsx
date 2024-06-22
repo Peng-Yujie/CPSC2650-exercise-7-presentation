@@ -1,6 +1,7 @@
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Textarea from "./components/Textarea";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         This is a simple React + Vite app, built for the CPSC2650 Week7
         presentation.
       </p>
+      <Textarea name="Yujie" />
     </>
   );
 }
